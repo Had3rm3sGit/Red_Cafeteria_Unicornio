@@ -1,37 +1,58 @@
-# Bitacora
+## Bitácora
 <ul>
     <i>
-        Aviso - por lo menos por esta parte puede haber inconsistencias ya que me olvide de documentar desde el principio.
+        Aviso: por lo menos en esta parte puede haber inconsistencias, ya que me olvidé de documentar desde el principio.
     </i>
 </ul>
+
+## <b><i>Índice / Días</i></b>
+<ol>
+<li><a href="#20-04-2026">20-04-2026</a></li>
+<li><a href="#21-04-2026">21-04-2026</a></li>
+<li><a href="#25-04-2026">25-04-2026</a></li>
+<li><a href="#07-05-2026">07-05-2026</a></li>
+<li><a href="#10-05-2026">10-05-2026</a></li>
+<li><a href="#18-05-2026">18-05-2026</a></li>
+<li><a href="#20-05-2026">20-05-2026</a></li>
+</ol>
 <hr>
 <hr>
 
 ## 20-04-2026
-Me dieron un mes y medio para hacelo, los requerimientos son a grandes rasgos una instalacion de red para una cafeteria con 2 redes separadas, una empleados y otra para clientes, que no se pueda hacer pung a la otra desde una y que tenga configurado el DHCP para ambas redes, primero empezare con cisco ya que en si es lo mas facil de hacer e ire desarrollando todo conforme avance.
+Me dieron mes y medio para hacerlo; los requerimientos, a grandes rasgos, son una instalación de red para una cafetería con dos redes separadas: una para empleados y otra para clientes, que no se pueda hacer ping de una a otra y que tenga configurado el DHCP para ambas redes. Primero empezaré con Cisco, ya que en sí es lo más fácil de hacer, e iré desarrollando todo conforme avance.
 <hr>
 <hr>
 
 ## 21-04-2026
-Despues de pensarlo "mucho, al final decidi primero hacer primero el diseño de la cafeteria, me lo aventare en [diagram.io](https://diagram.io) par solo importarlo al formato que acepta cisco, ademas se me ocurrio configurar una TV para la cafeteria :3
+Después de pensarlo mucho, al final decidí hacer primero el diseño de la cafetería. Me lo aventaré en [diagram.io](https://diagram.io) para solo importarlo al formato que acepta Cisco. Además se me ocurrió configurar una TV para la cafetería :3
 <hr>
 <hr>
 
 ## 25-04-2026
-Ok, ya me avente la estructura, se me paso acer el "modelo o plano" de la red, asi que me lo avenare otra vez para agregarlo, por mientras vere como le hago para lo de la tele, la verdad lo demas fue "facil" pero la tele me esta matando.
+Ok, ya me aventé la estructura; se me pasó hacer el "modelo o plano" de la red, así que me lo aventaré otra vez para agregarlo. Por mientras veré cómo le hago con lo de la tele; la verdad lo demás fue "fácil", pero la tele me está matando.
 <hr>
 <hr>
-<i>Sabatico de vacaciones del <b>16/17 de abril</b> hasta el <b>6 de mayo</b> </i>
+<i>Sabático de vacaciones del <b>16/17 de abril</b> al <b>6 de mayo</b>.</i>
 <hr>
 <hr>
 
 ## 07-05-2026
-Ok la neta me hice wey, pero ya vi como configurar la TV, solo es ponerle imagenes en formato png a una nube y luego conectarlo a la TV, lo voy a elaborar, intentare poner una animación cencilla para esto, ademas ya esta configurada la red, solo hare algunas pruevas para ver si si funciona, por mientras configurare DHCP en el switch.
+Ok, la neta me hice wey, pero ya vi cómo configurar la TV: solo es ponerle imágenes en formato PNG a una nube y luego conectarla a la TV. Lo voy a elaborar; intentaré poner una animación sencilla para esto. Además ya está configurada la red; solo haré algunas pruebas para ver si funciona. Por mientras, configuraré DHCP en el switch.
 <hr>
 <hr>
 
 ## 10-05-2026
-Ya quedo la TV, use [Kirta]() para convertir la animaicion .gif a secuencia de imagenes y las subi, ademas de esto despues de revisar la red de la cafeteria ya me dio un error, la configuracion de la red de empleados esta mal configuada, tendre que resolverlo, por el momento lo dejare asi
+Ya quedó la TV; usé [Kirta]() para convertir la animación .gif a secuencia de imágenes y las subí. Además de esto, después de revisar la red de la cafetería me dio un error: la configuración de la red de empleados está mal configurada; tendré que resolverlo. Por el momento lo dejaré así.
+<hr>
+<hr>
+
+## 18-05-2026
+Después de revisar, lo último que falta es configurar bien el DHCP para que dé la dirección IP correcta y se pueda hacer ping. Voy a preguntar qué más falta o algo así para acabarlo ya.
+<hr>
+<hr>
+
+## 20-05-2026
+Ok, intente cambiar el como configuraba, pero todo fallo, los DHCP no están nada bien y me hice bolas, por el momento me asesorare y vere como lo arreglo para que quede mejor, por el momento hare el primer commit a github
 <hr>
 <hr>
 
@@ -39,7 +60,7 @@ Ya quedo la TV, use [Kirta]() para convertir la animaicion .gif a secuencia de i
 <ol>
     <li>
         <i>
-            implementacion de celular analogico y simulacion de llamada para un pedido por el mismo medio
+            Implementación de teléfono analógico y simulación de llamada para un pedido por el mismo medio.
         </i>
     </li>
 </ol>
