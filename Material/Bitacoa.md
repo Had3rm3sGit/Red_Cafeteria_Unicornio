@@ -14,6 +14,7 @@
 <li><a href="#10-05-2026">10-05-2026</a></li>
 <li><a href="#18-05-2026">18-05-2026</a></li>
 <li><a href="#20-05-2026">20-05-2026</a></li>
+<li><a href="#02-06-2026">02-06-2026</a></li>
 </ol>
 <hr>
 <hr>
@@ -42,7 +43,7 @@ Ok, la neta me hice wey, pero ya vi cómo configurar la TV: solo es ponerle imá
 <hr>
 
 ## 10-05-2026
-Ya quedó la TV; usé [Kirta]() para convertir la animación .gif a secuencia de imágenes y las subí. Además de esto, después de revisar la red de la cafetería me dio un error: la configuración de la red de empleados está mal configurada; tendré que resolverlo. Por el momento lo dejaré así.
+Ya quedó la TV; usé [Kirta](https://krita.org) para convertir la animación .gif a secuencia de imágenes y las subí. Además de esto, después de revisar la red de la cafetería me dio un error: la configuración de la red de empleados está mal configurada; tendré que resolverlo. Por el momento lo dejaré así.
 <hr>
 <hr>
 
@@ -56,11 +57,20 @@ Ok, intente cambiar el como configuraba, pero todo fallo, los DHCP no están nad
 <hr>
 <hr>
 
+## 02-06-2026
+Después de dejar el proyecto por temas de otros proyectos, lo retoma por recomendación del profesor; al final solo era no cagarla con la configuración del DHCP para que todo saliera bien. Lo único que hice fue bloquear las IP correctas con el comando 
+    ip dhcp excluded-address [la ip con máscara]
+para que todo funcionara correctamente. Ya haré el último commit y le mandaré el enlace al maestro. La verdad no tengo material didáctico extra más que el final en las carpetas [videos](https://github.com/Had3rm3sGit/Red_Cafeteria_Unicornio/tree/main/Material/videos) y en la carpeta [img](https://github.com/Had3rm3sGit/Red_Cafeteria_Unicornio/tree/main/Material/img), pero fuera de esto la verdad estoy feliz de haberlo acabado para exentar; solo sería cumplir con mi otro proyecto.
+En general, hoy solo fue arreglar todo y tenerlo listo. Cualquier solicitud posterior será añadida.
+
 ### Ideas descartadas por falta de tiempo y de conocimiento
 <ol>
     <li>
         <i>
             Implementación de teléfono analógico y simulación de llamada para un pedido por el mismo medio.
         </i>
+    </li>
+    <li>
+        <a href="https://www.youtube.com/watch?v=MuUrfz5nxys">curiosidad</a>
     </li>
 </ol>
